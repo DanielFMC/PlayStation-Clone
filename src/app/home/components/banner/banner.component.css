@@ -1,0 +1,45 @@
+.banner {
+  width: 100%;
+  height: 470px;
+  margin-top: 7px;
+}
+
+.image {
+  width: inherit;
+  height: inherit;
+  background: url(./../../../../assets/image/psn-network-test-02.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.info {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin-bottom: 60px;
+}
+
+.info p,
+.info button {
+  margin-top: 20px;
+}
+
+.info h3 {
+  font-size: 40px;
+  line-height: 1.2;
+  font-weight: bold;
+}
+
+.info p {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.info button {
+  color: white;
+  font-size: 13px;
+  padding: 13px 15px;
+  background-color: #0072ce;
+  border: none;
+  font-weight: bold;
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "img": "./../assets/image/card1.png",
+    "title": "PlayStation®Plus",
+    "description": "Comienza a jugar inmediatamente con tu Instant Game Collection™ en PlayStation Plus. Obtén acceso a la próxima generación de la función online multijugador en consolas PS4™ y descubre un mundo de jugadores similares para jugar y desafiar.",
+    "action": "ÚNETE AHORA"
+  },
+  {
+    "img": "./../assets/image/card2.png",
+    "title": "PlayStation®Store",
+    "description": "Preordena y precarga los juegos más recientes y codiciados sin tener que esperar para jugar. Agrega contenido descargable a tus juegos y mira las mejores películas y adelantos promocionales exclusivos.",
+    "action": "COMPRA AHORA"
+  }
+]

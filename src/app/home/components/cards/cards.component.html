@@ -1,0 +1,32 @@
+<div class="container">
+  <h2>Vive una experiencia más completa con</h2>
+  <h3>PlayStation™ Network</h3>
+  <div class="content">
+    <div class="card text-center" style="width: 30rem;" *ngFor="let card of cards">
+      <img [src]="card.img" class="card-img-top" alt="Card image">
+      <div class="card-body">
+        <h5 class="card-title">{{ card.title }}</h5>
+        <p class="card-text">{{ card.description }}</p>
+        <a href="#" class="btn btn-primary">{{ card.action }}</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
+  aria-controls="collapseExample">
+  <div class="notes-bg">
+    <a class="notes" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
+      aria-controls="collapseExample">
+      Notas
+    </a>
+    <i class="fas fa-caret-left"></i>
+  </div>
+  <div class="collapse" id="collapseExample">
+    <div class="card-notes">
+      * Los usuarios de Spotify sin cargo y Premium pueden utilizar Spotify Connect para controlar la reproducción de
+      música en PlayStation®4 y PlayStation®3 usando los dispositivos Android 2.4.0 y posterior y los dispositivos iOS
+      2.7.0 y posterior. ** También puedes vincular tu cuenta de Sony Entertainment Network.
+    </div>
+  </div>
+</div>

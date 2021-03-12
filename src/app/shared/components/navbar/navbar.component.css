@@ -1,0 +1,117 @@
+.navbar {
+  background-color: white;
+  padding: 0px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 41px;
+  display: flex;
+  align-content: center;
+}
+
+.navbar:hover .navbar-menu button,
+.navbar:hover a,
+.navbar:hover .navbar-menu li .fas {
+  color: black;
+  transition: 300ms all;
+}
+
+.navbar-menu,
+.navbar-botones,
+.navbar-menu ul {
+  height: inherit;
+}
+
+.navbar-menu {
+  display: flex;
+  text-align: center;
+}
+
+.navbar .navbar-menu ul {
+  padding: 0px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar .navbar-menu li {
+  list-style: none;
+  display: inline;
+}
+
+.navbar .navbar-menu li .fab {
+  font-size: 25px;
+  margin-top: 5px;
+  margin-right: 20px;
+  color: #0070d1;
+  width: 18px;
+}
+
+.navbar .navbar-menu li .fas {
+  color: #757593;
+  font-size: 10px;
+  margin-right: 5px;
+}
+
+.navbar .navbar-menu button {
+  font-size: 12px;
+  font-weight: 550;
+  color: #757593;
+  background-color: transparent;
+  border: none;
+  padding-right: 2px;
+}
+
+.navbar .navbar-menu li:hover button,
+.navbar .navbar-menu li:hover .fas {
+  color: #0070d1;
+  cursor: pointer;
+}
+
+.navbar-botones {
+  display: inline-flex;
+  align-items: center;
+  height: 49.5px;
+}
+
+.navbar-botones .icono-search {
+  background-color: transparent;
+  border: none;
+  margin-left: 15px;
+}
+
+.navbar-botones .icono-search i {
+  font-size: 20px;
+}
+
+.navbar-botones .login-btn {
+  background-color: #363636;
+  color: #ffffff;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  margin-right: 15px;
+  margin-left: 15px;
+  height: 70%;
+  width: 120px;
+}
+
+.navbar-botones a {
+  color: #757593;
+  margin-right: 15px;
+  font-size: 12px;
+  font-weight: 550;
+}
+
+.navbar-botones a:hover {
+  text-decoration: none;
+  color: #0070d1;
+}
+
+.button-overview {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: transparent;
+  border: 1px solid #eeeeee;
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 12px;
+  margin: 3px 0px;
+}
